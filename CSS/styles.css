@@ -15,11 +15,17 @@ body {
     color: #000000;
 }
 
+.container {
+    width: 1200px;
+    margin:auto;
+}
+
 .header-sidebar {
     background-color: #ffffff;
     width: 100%;
     height: 80px;
 }
+
 .header-styles a {
     text-decoration: none;
     background-color: #ffffff;
