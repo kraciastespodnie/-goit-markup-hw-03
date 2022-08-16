@@ -13,18 +13,35 @@
 body {
     font-family: "Roboto", "Raleway", sans-serif;
     color: #000000;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
 }
 
 .header-sidebar {
-    background-color: #ffffff;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 80px;
+    border-bottom: 1px solid #ececec;
 }
+.header-styles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header-styles a {
     text-decoration: none;
     background-color: #ffffff;
     width: 145px;
     height: 31px;
+    margin-right: 93px;
 }
 
 .logo-web {
@@ -48,9 +65,10 @@ body {
 }
 
 .navi {
-    background-color: #ffffff;
-    width: 254px;
-    height: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navi-type a {
@@ -61,11 +79,21 @@ body {
     line-height: 1.38;
     display: inline;
     letter-spacing: 0.02em;
+    width: 254px;
+    height: 16px;
+    margin-right: 46px;
+    margin-left: 0;
 }
 
 .navi-type a:hover,
 .navi-type a:focus {
     color: #2196f3;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contacts a {
@@ -76,6 +104,7 @@ body {
     line-height: 1.38;
     display: inline;
     letter-spacing: 0.02em;
+    margin-right: 50px;
 }
 
 .contacts a:hover,
@@ -91,11 +120,14 @@ body {
 .banner-text {
     text-decoration: none;
     color: #ffffff;
+    text-align: center;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
+    vertical-align: top;
+    text-transform: uppercase;
+    padding-top: 200px;
 }
 
 .banner-button {
@@ -110,15 +142,26 @@ body {
     letter-spacing: 0.06em;
     cursor: pointer;
     border: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .advantages {
     background-color: #ffffff;
     font-family: "Roboto", sans-serif;
+    width: 1170px;
+    height: 101px;
 }
 
 .advantages-list {
-    list-style-type: none;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-top: 94px;
+    padding-right: 94px;
 }
 
 .advantages-list h4 {
@@ -127,6 +170,7 @@ body {
     color: var(--main-color);
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .advantages-list p {
