@@ -38,7 +38,7 @@ body {
 }
 
 .header-border {
-border-bottom: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
 }
 
 .header-sidebar {
@@ -70,13 +70,7 @@ border-bottom: 1px solid #ececec;
 }
 
 .logo-studio {
-    text-decoration: none;
     color: var(--logo-color-second);
-    font-family: "Raleway", sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.1923;
-    letter-spacing: 0.03em;
 }
 /*
 .navi {
@@ -279,13 +273,7 @@ border-bottom: 1px solid #ececec;
 }
 
 .logo-studio-footer {
-    text-decoration: none;
     color: var(--logo-color-third);
-    font-family: "Raleway", sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.1923;
-    letter-spacing: 0.03em;
 }
 
 .footer-address address {
