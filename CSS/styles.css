@@ -37,11 +37,14 @@ body {
     padding-right: 15px;
 }
 
+.header-border {
+border-bottom: 1px solid #ececec;
+}
+
 .header-sidebar {
     display: flex;
     align-items: center;
     height: 80px;
-    border-bottom: 1px solid #ececec;
 }
 
 .header-styles {
